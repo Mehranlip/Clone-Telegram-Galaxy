@@ -26,29 +26,9 @@ body {
   box-sizing: inherit;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-
 ol,
 ul {
   list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .nav-bar {
@@ -63,4 +43,42 @@ img {
   font-size: 12px;
   line-height: 16px;
   color: #ffffff;
+}
+
+.section_main {
+  box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.56),
+    0px 2px 21px rgba(0, 0, 0, 0.55);
+  border-radius: 7px;
+}
+
+.Chats span {
+  font-family: "Segoe UI Variable Static Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-left: 10px;
+  /* identical to box height, or 143% */
+}
+
+.search {
+  all: unset;
+  padding: 3px 5px 3px 5px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  border-bottom: solid 1px white;
+  width: 90%;
+}
+.search::placeholder {
+  font-family: "Segoe UI Variable Static Small";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  font-feature-settings: "rclt" off;
+
+  color: rgba(255, 255, 255, 0.786);
 }

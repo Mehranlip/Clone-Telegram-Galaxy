@@ -88,6 +88,14 @@ ul {
   height: 70vh;
   overflow-y: scroll;
   overflow-x: hidden;
+
+  background: linear-gradient(
+    108.74deg,
+    rgba(255, 255, 255, 0.038) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(100px);
 }
 /* width */
 ::-webkit-scrollbar {
@@ -116,6 +124,16 @@ ul {
 
   color: #ffffff;
 }
+
+.title-user-sec {
+  font-family: "Segoe UI Variable Static Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #6ccb5f;
+}
 .short-msg {
   font-family: "Segoe UI Variable Static Small";
   font-style: normal;
@@ -125,6 +143,27 @@ ul {
   /* identical to box height */
 
   color: #888888;
+}
+
+.short-msg-meadia {
+  font-family: "Segoe UI Variable Static Small";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #0078d4;
+}
+
+.msg-notread {
+  font-family: "Segoe UI Variable Static Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
 }
 
 .time-mag {
@@ -142,4 +181,16 @@ ul {
 
 .icon-maseage {
   width: 40px;
+}
+
+.chat-item-select {
+  border-radius: 5px;
+  background: linear-gradient(
+    108.74deg,
+    rgba(255, 255, 255, 0.24) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(100px);
+  border-left: solid 2px wheat;
 }

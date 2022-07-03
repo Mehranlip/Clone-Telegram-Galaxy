@@ -82,3 +82,64 @@ ul {
 
   color: rgba(255, 255, 255, 0.786);
 }
+
+.anyClass {
+  margin-top: 20px;
+  height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.514);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  height: 30px;
+  background: rgba(255, 255, 255, 0.5442);
+  border-radius: 9999px;
+}
+
+.title-user {
+  font-family: "Segoe UI Variable Static Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.short-msg {
+  font-family: "Segoe UI Variable Static Small";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #888888;
+}
+
+.time-mag {
+  position: relative;
+  text-align: end;
+  font-family: "Segoe UI Variable Static Small";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #838383;
+}
+
+.icon-maseage {
+  width: 40px;
+}

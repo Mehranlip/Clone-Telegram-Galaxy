@@ -16,8 +16,7 @@ html {
 body {
   background-image: url("assets/background/bg-win11.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+  background-size: 100%;
 }
 
 *,
@@ -208,4 +207,25 @@ ul {
   box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(100px);
   border-left: solid 2px wheat;
+}
+
+.msg-windos-size {
+  display: none;
+}
+.msg-windos-size h3 {
+  font-family: "Segoe UI Variable Static Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  color: #ffffff;
+  margin-top: 50vh;
+}
+@media only screen and (max-width: 1440px) {
+  .main-div {
+    display: none;
+  }
+  .msg-windos-size {
+    display: inline;
+  }
 }

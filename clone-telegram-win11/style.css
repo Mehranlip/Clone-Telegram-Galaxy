@@ -183,6 +183,21 @@ ul {
   width: 40px;
 }
 
+.chat-item {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.chat-item:hover {
+  border-radius: 5px;
+  background: linear-gradient(
+    108.74deg,
+    rgba(255, 255, 255, 0.24) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(100px);
+  border-left: solid 2px wheat;
+}
 .chat-item-select {
   border-radius: 5px;
   background: linear-gradient(

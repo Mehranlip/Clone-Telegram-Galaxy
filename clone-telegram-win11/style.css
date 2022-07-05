@@ -69,6 +69,7 @@ ul {
   border-bottom: solid 1px white;
   width: 90%;
 }
+
 .search::placeholder {
   font-family: "Segoe UI Variable Static Small";
   font-style: normal;
@@ -89,21 +90,25 @@ ul {
   overflow-y: scroll;
   overflow-x: hidden;
 
-  background: linear-gradient(
-    108.74deg,
-    rgba(255, 255, 255, 0.038) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+
+  border-radius: 0px 0px 0px 7px;
+}
+
+.caht-list-box {
+  background: linear-gradient(108.74deg,
+      rgba(255, 255, 255, 0.038) 0%,
+      rgba(255, 255, 255, 0) 100%);
   box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(100px);
   border-radius: 0px 0px 0px 7px;
 }
 
-.chat-screen{
+.chat-screen {
   height: 68vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 4px;
@@ -141,6 +146,7 @@ ul {
 
   color: #6ccb5f;
 }
+
 .short-msg {
   font-family: "Segoe UI Variable Static Small";
   font-style: normal;
@@ -194,24 +200,22 @@ ul {
   margin-bottom: 5px;
   padding: 5px;
 }
+
 .chat-item:hover {
   border-radius: 5px;
-  background: linear-gradient(
-    108.74deg,
-    rgba(255, 255, 255, 0.24) 0%,
-    rgba(255, 255, 255, 0.06) 100%
-  );
+  background: linear-gradient(108.74deg,
+      rgba(255, 255, 255, 0.24) 0%,
+      rgba(255, 255, 255, 0.06) 100%);
   box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(100px);
   border-left: solid 2px wheat;
 }
+
 .chat-item-select {
   border-radius: 5px;
-  background: linear-gradient(
-    108.74deg,
-    rgba(255, 255, 255, 0.24) 0%,
-    rgba(255, 255, 255, 0.06) 100%
-  );
+  background: linear-gradient(108.74deg,
+      rgba(255, 255, 255, 0.24) 0%,
+      rgba(255, 255, 255, 0.06) 100%);
   box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(100px);
   border-left: solid 2px wheat;
@@ -220,6 +224,7 @@ ul {
 .msg-windos-size {
   display: none;
 }
+
 .msg-windos-size h3 {
   font-family: "Segoe UI Variable Static Display";
   font-style: normal;
@@ -229,20 +234,21 @@ ul {
   color: #ffffff;
   margin-top: 50vh;
 }
+
 @media only screen and (max-width: 1439px) {
   .main-div {
     display: none;
   }
+
   .msg-windos-size {
     display: inline;
   }
 }
+
 .chate-info-box {
-  background: linear-gradient(
-    108.74deg,
-    rgba(0, 0, 0, 0.24) 0%,
-    rgba(68, 68, 68, 0.06) 100%
-  );
+  background: linear-gradient(108.74deg,
+      rgba(0, 0, 0, 0.24) 0%,
+      rgba(68, 68, 68, 0.06) 100%);
   box-shadow: 0px 0px 50px -25px rgba(0, 0, 0, 0.5);
   border-bottom: 0.5px solid rgb(71, 71, 71);
 
@@ -253,6 +259,7 @@ ul {
 .icon-info-chat {
   margin-left: 5px;
 }
+
 .box-chat {
   background: rgba(58, 58, 58, 0.3);
   backdrop-filter: blur(100px);
@@ -260,44 +267,44 @@ ul {
 }
 
 
-.pm-text-resive{
+.pm-text-resive {
   font-family: 'Segoe UI Variable Static Small';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height, or 136% */
-  
-  
+
+
   color: #FFFFFF;
 
   margin-top: 7px;
   margin-left: 10px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.1);
-border-radius: 4px 14px 14px 14px;
-display:inline-block;
-width: fit-content;
+  background: rgba(46, 173, 212, 0.186);
+  border-radius: 4px 14px 14px 14px;
+  display: inline-block;
+  width: fit-content;
 }
 
-.pm-text-send{
+.pm-text-send {
   font-family: 'Segoe UI Variable Static Small';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height, or 136% */
-  
-  
+
+
   color: #FFFFFF;
 
   margin-top: 7px;
   margin-right: 10px;
   padding: 10px;
-  background: #1566A3;
-border-radius: 14px 14px 4px 14px;
-display:inline-block;
-width: fit-content;
+  background: #6815a3;
+  border-radius: 14px 14px 4px 14px;
+  display: inline-block;
+  width: fit-content;
 }
 
 .time-pm {
@@ -307,32 +314,37 @@ width: fit-content;
   font-size: 12px;
   line-height: 14px;
   /* identical to box height, or 117% */
-  
+
   text-align: right;
   color: #A1AAB3;
 }
 
-.imge-pm{
-  margin-top: 10px;
+.imge-pm {
+  margin-top: 7px;
   width: 250px;
 }
 
-.box-input-chat{
-  background: rgba(154, 154, 154, 0.051);
-border-radius: 8px;
-padding: 5px;
+.stik-pm {
+  margin-top: 7px;
+  width: 250px;
 }
 
-.input-chat{
+.box-input-chat {
+  background: rgba(154, 154, 154, 0.051);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.input-chat {
   all: unset;
 
   font-family: 'Segoe UI Variable Static Small';
-font-style: normal;
-font-weight: 200;
-font-size: 16px;
-line-height: 21px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 21px;
 
-color: #8A8A8A;
+  color: #8A8A8A;
 
-margin-left: -25px;
+  margin-left: -25px;
 }
